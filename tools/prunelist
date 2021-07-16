@@ -79,3 +79,4 @@ usr/share/games
 usr/share/man
 usr/share/openssl
 usr/share/nls
+var/cache/pkg

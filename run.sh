@@ -1,0 +1,7 @@
+#!/bin/sh
+make BASE=/z/freebsd/release/amd64.amd64/13.0-STABLE/2021-06-30-rcd2e5ae/ftp \
+KERNCONF=DPD \
+MFSROOT_MAXSIZE=1024m \
+MFSROOT_FREE_INODES="5%" \
+MFSROOT_FREE_BLOCKS="5%" 
+
